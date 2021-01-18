@@ -1,0 +1,14 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='contact.css') }}">
+</head>
+<body>
+<h1 style="text-align:center">{{ name }}</h1>
+<h2 style="text-align:center">Join My Call</h2>
+
+<div>
+  <img src="static/{{ name }}.jpg"></img>
+
+</div>
+<a href="/zoom?name={{name}}"><button>Join Call</button></a>
+</body>
+</html>

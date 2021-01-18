@@ -1,0 +1,26 @@
+img {
+  width: 30%;
+  height: 50%;
+  margin-left: 35%;
+  border-radius: 25px;
+}
+
+button{
+  text-decoration: none;
+  background-color: RoyalBlue;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 45%;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+body {
+  background-color: #72bcd4;
+  color: white;
+}
